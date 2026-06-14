@@ -1,0 +1,43 @@
+{
+  "name": "Your Full Name",
+  "email": "you@gmail.com",
+  "phone": "+91-XXXXXXXXXX",
+  "linkedin": "linkedin.com/in/yourprofile",
+  "github": "github.com/yourusername",
+  "summary": "Passionate ML/AI Engineer with 2 years of experience building Python-based systems, REST APIs, and LLM-powered applications. Strong background in deep learning, data pipelines, and deploying scalable backend services.",
+  "skills": [
+    "Python", "Machine Learning", "Deep Learning", "FastAPI", "Django",
+    "PostgreSQL", "SQLite", "REST APIs", "Claude API", "LLMs",
+    "TensorFlow", "PyTorch", "scikit-learn", "Docker", "Git"
+  ],
+  "experience": [
+    {
+      "role": "Machine Learning Intern",
+      "company": "Your Previous Company",
+      "duration": "Jun 2023 – Dec 2023",
+      "bullets": [
+        "Built a text classification pipeline using BERT achieving 94% accuracy on production customer support data.",
+        "Reduced model inference latency by 40% by exporting models to ONNX and deploying with FastAPI.",
+        "Collaborated with the product team to integrate ML features shipped to 10,000+ active users.",
+        "Wrote data preprocessing pipelines in Python that reduced manual cleaning effort by 60%."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "JobAgent AI",
+      "description": "Autonomous job-hunting pipeline that scrapes 50+ daily listings, scores them with Claude API, tailors resumes, and sends a morning digest email with PDF attachments.",
+      "tech": ["Python", "Claude API", "SQLite", "BeautifulSoup", "ReportLab", "Gmail SMTP"]
+    },
+    {
+      "name": "Your Second Project",
+      "description": "Brief description of what it does, what problem it solves, and the impact.",
+      "tech": ["Python", "FastAPI", "PostgreSQL", "Docker"]
+    }
+  ],
+  "education": {
+    "degree": "B.Tech / B.E. in Computer Science",
+    "institute": "Your University Name",
+    "year": "2025"
+  }
+}
