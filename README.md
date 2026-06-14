@@ -28,6 +28,20 @@ jobagent/
     ├── internshala.py   # Internshala BeautifulSoup scraper
     └── wellfound.py     # Wellfound scraper
 ```
+---
+
+## Screenshots
+
+### Daily Email Digest
+![Email Digest](Screenshots/My_Mail.png)
+
+### Job Match Scores
+![Job Scores](Screenshots/Top_Companies.png)
+
+### Tailored Resume PDFs
+![PDF Attachments](Screenshots/Tailored_Resumes.png)
+
+---
 
 ## Setup
 
@@ -70,8 +84,8 @@ python scheduler.py
 
 | Component | Cost |
 |-----------|------|
-| Claude API | ~$0.50–1 / month |
+| Groq API | Free |
 | Job sources | Free |
 | Gmail SMTP | Free |
 | Hosting (Railway / your PC) | Free |
-| **Total** | **~$0–1 / month** |
+| **Total** | **0** |
