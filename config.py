@@ -1,7 +1,12 @@
 # ============================================================
 # JobAgent AI — Config
-# Edit this file to match your profile and preferences
+# Keys are loaded from .env — never hardcode them here
 # ============================================================
+
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # --- Your Profile ---
 PROFILE = {
@@ -28,19 +33,22 @@ SEARCH_KEYWORDS = [
 LOCATIONS = ["Bangalore", "Jaipur", "Remote India"]
 
 # --- Scoring ---
-SCORE_THRESHOLD = 7        # Only keep jobs with Claude score >= this
-TOP_JOBS_PER_DAY = 5       # Max jobs to include in daily digest
+SCORE_THRESHOLD = 7
+TOP_JOBS_PER_DAY = 5
 
 # --- Scheduler ---
-DAILY_RUN_TIME = "07:00"   # 24h format, local time
+DAILY_RUN_TIME = "07:00"
 
-# --- Email (fill in Week 3) ---
-EMAIL_SENDER = "your_email@gmail.com"
-EMAIL_RECEIVER = "your_email@gmail.com"
-EMAIL_APP_PASSWORD = "your_gmail_app_password"  # Gmail App Password, not your real password
+# --- Email ---
+EMAIL_SENDER   = os.getenv("EMAIL_SENDER", "your_email@gmail.com")
+EMAIL_RECEIVER = os.getenv("EMAIL_RECEIVER", "your_email@gmail.com")
+EMAIL_APP_PASSWORD = os.getenv("EMAIL_APP_PASSWORD", "")
+
+# --- API ---
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 
 # --- Paths ---
-DB_PATH = "data/jobagent.db"
-LOG_PATH = "logs/jobagent.log"
-RESUME_PATH = "resume/base_resume.json"
+DB_PATH        = "data/jobagent.db"
+LOG_PATH       = "logs/jobagent.log"
+RESUME_PATH    = "resume/base_resume.json"
 PDF_OUTPUT_DIR = "data/pdfs/"
