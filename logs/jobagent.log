@@ -1,0 +1,529 @@
+2026-06-15 01:28:15,226 [WARNING] dotenv.main — python-dotenv could not parse statement starting at line 1
+2026-06-15 01:28:26,387 [WARNING] dotenv.main — python-dotenv could not parse statement starting at line 1
+2026-06-15 01:28:36,796 [WARNING] dotenv.main — python-dotenv could not parse statement starting at line 1
+2026-06-15 01:28:45,414 [WARNING] dotenv.main — python-dotenv could not parse statement starting at line 1
+2026-06-15 01:28:45,801 [INFO] JobAgent — JobAgent AI — Full Pipeline starting
+2026-06-15 01:28:45,801 [INFO] JobAgent — Run time: 2026-06-15 01:28:45
+2026-06-15 01:28:45,801 [INFO] JobAgent — ============================================================
+2026-06-15 01:28:45,802 [INFO] JobAgent — WEEK 1 — Scraper Pipeline
+2026-06-15 01:28:45,802 [INFO] JobAgent — ============================================================
+2026-06-15 01:28:45,830 [INFO] database — Database initialised at data/jobagent.db
+2026-06-15 01:28:45,831 [INFO] JobAgent — Scraping Indeed...
+2026-06-15 01:28:45,954 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=ML+engineer+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:28:45,954 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=ML+engineer+intern&l=Bangalore&s | Indeed]: 0 jobs
+2026-06-15 01:28:47,052 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=ML+engineer+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:28:47,052 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=ML+engineer+intern&l=Jaipur&sort | Indeed]: 0 jobs
+2026-06-15 01:28:48,140 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=ML+engineer+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:28:48,140 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=ML+engineer+intern&l=Remote+Indi | Indeed]: 0 jobs
+2026-06-15 01:28:49,469 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=AI+engineer+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-15 01:28:49,470 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=AI+engineer+intern&l=Bangalore&s | Indeed]: 0 jobs
+2026-06-15 01:28:50,791 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=AI+engineer+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-15 01:28:50,792 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=AI+engineer+intern&l=Jaipur&sort | Indeed]: 0 jobs
+2026-06-15 01:28:51,917 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=AI+engineer+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:28:51,918 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=AI+engineer+intern&l=Remote+Indi | Indeed]: 0 jobs
+2026-06-15 01:28:52,995 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=Python+developer+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:28:52,996 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=Python+developer+intern&l=Bangal | Indeed]: 0 jobs
+2026-06-15 01:28:54,103 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=Python+developer+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:28:54,104 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=Python+developer+intern&l=Jaipur | Indeed]: 0 jobs
+2026-06-15 01:28:55,184 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=Python+developer+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:28:55,185 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=Python+developer+intern&l=Remote | Indeed]: 0 jobs
+2026-06-15 01:28:56,506 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=backend+developer+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-15 01:28:56,507 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=backend+developer+intern&l=Banga | Indeed]: 0 jobs
+2026-06-15 01:28:57,937 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=backend+developer+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-15 01:28:57,937 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=backend+developer+intern&l=Jaipu | Indeed]: 0 jobs
+2026-06-15 01:28:59,022 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=backend+developer+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:28:59,023 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=backend+developer+intern&l=Remot | Indeed]: 0 jobs
+2026-06-15 01:29:00,107 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=machine+learning+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:29:00,107 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=machine+learning+intern&l=Bangal | Indeed]: 0 jobs
+2026-06-15 01:30:52,103 [WARNING] dotenv.main — python-dotenv could not parse statement starting at line 1
+2026-06-15 01:30:52,389 [INFO] JobAgent — JobAgent AI — Full Pipeline starting
+2026-06-15 01:30:52,389 [INFO] JobAgent — Run time: 2026-06-15 01:30:52
+2026-06-15 01:30:52,389 [INFO] JobAgent — ============================================================
+2026-06-15 01:30:52,389 [INFO] JobAgent — WEEK 1 — Scraper Pipeline
+2026-06-15 01:30:52,390 [INFO] JobAgent — ============================================================
+2026-06-15 01:30:52,391 [INFO] database — Database initialised at data/jobagent.db
+2026-06-15 01:30:52,391 [INFO] JobAgent — Scraping Indeed...
+2026-06-15 01:30:52,707 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=ML+engineer+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-15 01:30:52,707 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=ML+engineer+intern&l=Bangalore&s | Indeed]: 0 jobs
+2026-06-15 01:30:53,797 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=ML+engineer+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:30:53,797 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=ML+engineer+intern&l=Jaipur&sort | Indeed]: 0 jobs
+2026-06-15 01:30:55,371 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=ML+engineer+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-15 01:30:55,371 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=ML+engineer+intern&l=Remote+Indi | Indeed]: 0 jobs
+2026-06-15 01:30:56,465 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=AI+engineer+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:30:56,465 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=AI+engineer+intern&l=Bangalore&s | Indeed]: 0 jobs
+2026-06-15 01:30:57,801 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=AI+engineer+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-15 01:30:57,801 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=AI+engineer+intern&l=Jaipur&sort | Indeed]: 0 jobs
+2026-06-15 01:30:59,129 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=AI+engineer+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-15 01:30:59,129 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=AI+engineer+intern&l=Remote+Indi | Indeed]: 0 jobs
+2026-06-15 01:31:00,229 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=Python+developer+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:31:00,229 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=Python+developer+intern&l=Bangal | Indeed]: 0 jobs
+2026-06-15 01:31:01,331 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=Python+developer+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:31:01,331 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=Python+developer+intern&l=Jaipur | Indeed]: 0 jobs
+2026-06-15 01:31:02,425 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=Python+developer+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:31:02,425 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=Python+developer+intern&l=Remote | Indeed]: 0 jobs
+2026-06-15 01:31:03,504 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=backend+developer+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:31:03,504 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=backend+developer+intern&l=Banga | Indeed]: 0 jobs
+2026-06-15 01:31:04,612 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=backend+developer+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:31:04,612 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=backend+developer+intern&l=Jaipu | Indeed]: 0 jobs
+2026-06-15 01:31:05,706 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=backend+developer+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:31:05,706 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=backend+developer+intern&l=Remot | Indeed]: 0 jobs
+2026-06-15 01:31:06,811 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=machine+learning+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:31:06,811 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=machine+learning+intern&l=Bangal | Indeed]: 0 jobs
+2026-06-15 01:31:07,907 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=machine+learning+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:31:07,907 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=machine+learning+intern&l=Jaipur | Indeed]: 0 jobs
+2026-06-15 01:31:09,009 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=machine+learning+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:31:09,009 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=machine+learning+intern&l=Remote | Indeed]: 0 jobs
+2026-06-15 01:31:10,010 [INFO] scrapers.indeed — Indeed total raw jobs: 0
+2026-06-15 01:31:10,010 [INFO] JobAgent — Indeed: 0 jobs fetched
+2026-06-15 01:31:10,011 [INFO] JobAgent — Scraping Internshala...
+2026-06-15 01:31:10,890 [ERROR] JobAgent — Internshala scraper failed: Couldn't find a tree builder with the features you requested: lxml. Do you need to install a parser library?
+2026-06-15 01:31:10,891 [INFO] JobAgent — Scraping Wellfound...
+2026-06-15 01:31:11,258 [WARNING] scrapers.wellfound — Wellfound returned 403 for https://wellfound.com/role/machine-learning?location_type=remote&location_type=in-office
+2026-06-15 01:31:13,569 [WARNING] scrapers.wellfound — Wellfound returned 403 for https://wellfound.com/role/artificial-intelligence?location_type=remote&location_type=in-office
+2026-06-15 01:31:15,939 [WARNING] scrapers.wellfound — Wellfound returned 403 for https://wellfound.com/role/python?location_type=remote&location_type=in-office
+2026-06-15 01:31:18,322 [WARNING] scrapers.wellfound — Wellfound returned 403 for https://wellfound.com/role/backend?location_type=remote&location_type=in-office
+2026-06-15 01:31:20,324 [INFO] scrapers.wellfound — Wellfound total raw jobs: 0
+2026-06-15 01:31:20,324 [INFO] JobAgent — Wellfound: 0 jobs fetched
+2026-06-15 01:31:20,325 [INFO] database — Bulk insert: 0 new, 0 duplicates
+2026-06-15 01:31:20,325 [INFO] JobAgent — Stored: 0 new, 0 duplicates skipped
+2026-06-15 01:34:59,220 [INFO] JobAgent — JobAgent AI — Full Pipeline starting
+2026-06-15 01:34:59,220 [INFO] JobAgent — Run time: 2026-06-15 01:34:59
+2026-06-15 01:34:59,221 [INFO] JobAgent — ============================================================
+2026-06-15 01:34:59,221 [INFO] JobAgent — WEEK 1 — Scraper Pipeline
+2026-06-15 01:34:59,221 [INFO] JobAgent — ============================================================
+2026-06-15 01:34:59,222 [INFO] database — Database initialised at data/jobagent.db
+2026-06-15 01:34:59,222 [INFO] JobAgent — Scraping Indeed...
+2026-06-15 01:34:59,320 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=ML+engineer+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:34:59,320 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=ML+engineer+intern&l=Bangalore&s | Indeed]: 0 jobs
+2026-06-15 01:35:00,667 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=ML+engineer+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-15 01:35:00,668 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=ML+engineer+intern&l=Jaipur&sort | Indeed]: 0 jobs
+2026-06-15 01:35:01,744 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=ML+engineer+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:35:01,744 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=ML+engineer+intern&l=Remote+Indi | Indeed]: 0 jobs
+2026-06-15 01:35:02,826 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=AI+engineer+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:35:02,827 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=AI+engineer+intern&l=Bangalore&s | Indeed]: 0 jobs
+2026-06-15 01:35:03,927 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=AI+engineer+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:35:03,927 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=AI+engineer+intern&l=Jaipur&sort | Indeed]: 0 jobs
+2026-06-15 01:35:05,451 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=AI+engineer+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-15 01:35:05,451 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=AI+engineer+intern&l=Remote+Indi | Indeed]: 0 jobs
+2026-06-15 01:35:06,540 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=Python+developer+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:35:06,540 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=Python+developer+intern&l=Bangal | Indeed]: 0 jobs
+2026-06-15 01:35:08,047 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=Python+developer+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-15 01:35:08,047 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=Python+developer+intern&l=Jaipur | Indeed]: 0 jobs
+2026-06-15 01:35:09,135 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=Python+developer+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:35:09,136 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=Python+developer+intern&l=Remote | Indeed]: 0 jobs
+2026-06-15 01:35:10,234 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=backend+developer+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:35:10,234 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=backend+developer+intern&l=Banga | Indeed]: 0 jobs
+2026-06-15 01:35:11,315 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=backend+developer+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:35:11,316 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=backend+developer+intern&l=Jaipu | Indeed]: 0 jobs
+2026-06-15 01:35:12,749 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=backend+developer+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-15 01:35:12,750 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=backend+developer+intern&l=Remot | Indeed]: 0 jobs
+2026-06-15 01:35:13,866 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=machine+learning+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:35:13,866 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=machine+learning+intern&l=Bangal | Indeed]: 0 jobs
+2026-06-15 01:35:15,233 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=machine+learning+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-15 01:35:15,233 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=machine+learning+intern&l=Jaipur | Indeed]: 0 jobs
+2026-06-15 01:35:16,346 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=machine+learning+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-15 01:35:16,346 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=machine+learning+intern&l=Remote | Indeed]: 0 jobs
+2026-06-15 01:35:17,347 [INFO] scrapers.indeed — Indeed total raw jobs: 0
+2026-06-15 01:35:17,347 [INFO] JobAgent — Indeed: 0 jobs fetched
+2026-06-15 01:35:17,347 [INFO] JobAgent — Scraping Internshala...
+2026-06-15 01:35:18,353 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-ml-engineer-intern/location-bangalore]: found 3 cards
+2026-06-15 01:35:21,275 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-ml-engineer-intern/location-jaipur]: found 3 cards
+2026-06-15 01:35:24,247 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-ml-engineer-intern/location-remote-india]: found 3 cards
+2026-06-15 01:35:27,433 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-ai-engineer-intern/location-bangalore]: found 39 cards
+2026-06-15 01:35:30,681 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-ai-engineer-intern/location-jaipur]: found 39 cards
+2026-06-15 01:35:33,891 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-ai-engineer-intern/location-remote-india]: found 39 cards
+2026-06-15 01:35:36,982 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-python-developer-intern/location-bangalore]: found 14 cards
+2026-06-15 01:35:40,002 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-python-developer-intern/location-jaipur]: found 14 cards
+2026-06-15 01:35:43,103 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-python-developer-intern/location-remote-india]: found 14 cards
+2026-06-15 01:35:46,029 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-backend-developer-intern/location-bangalore]: found 2 cards
+2026-06-15 01:35:49,012 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-backend-developer-intern/location-jaipur]: found 2 cards
+2026-06-15 01:35:51,923 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-backend-developer-intern/location-remote-india]: found 2 cards
+2026-06-15 01:35:55,215 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-machine-learning-intern/location-bangalore]: found 40 cards
+2026-06-15 01:35:58,574 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-machine-learning-intern/location-jaipur]: found 40 cards
+2026-06-15 01:36:01,887 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-machine-learning-intern/location-remote-india]: found 40 cards
+2026-06-15 01:36:03,939 [INFO] scrapers.internshala — Internshala total raw jobs: 95
+2026-06-15 01:36:03,939 [INFO] JobAgent — Internshala: 95 jobs fetched
+2026-06-15 01:36:03,939 [INFO] JobAgent — Scraping Wellfound...
+2026-06-15 01:36:04,390 [WARNING] scrapers.wellfound — Wellfound returned 403 for https://wellfound.com/role/machine-learning?location_type=remote&location_type=in-office
+2026-06-15 01:36:06,777 [WARNING] scrapers.wellfound — Wellfound returned 403 for https://wellfound.com/role/artificial-intelligence?location_type=remote&location_type=in-office
+2026-06-15 01:36:09,147 [WARNING] scrapers.wellfound — Wellfound returned 403 for https://wellfound.com/role/python?location_type=remote&location_type=in-office
+2026-06-15 01:36:11,727 [WARNING] scrapers.wellfound — Wellfound returned 403 for https://wellfound.com/role/backend?location_type=remote&location_type=in-office
+2026-06-15 01:36:13,729 [INFO] scrapers.wellfound — Wellfound total raw jobs: 0
+2026-06-15 01:36:13,729 [INFO] JobAgent — Wellfound: 0 jobs fetched
+2026-06-15 01:36:14,779 [INFO] database — Bulk insert: 95 new, 0 duplicates
+2026-06-15 01:36:14,779 [INFO] JobAgent — Stored: 95 new, 0 duplicates skipped
+2026-06-15 01:36:16,310 [INFO] JobAgent — ============================================================
+2026-06-15 01:36:16,324 [INFO] JobAgent — WEEK 2 — Claude Scorer + Resume Tailor
+2026-06-15 01:36:16,324 [INFO] JobAgent — ============================================================
+2026-06-15 01:36:16,328 [INFO] JobAgent — Scoring 95 unscored jobs...
+2026-06-15 01:36:16,792 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:16,821 [INFO] scorer — Scored 'Data Science' @ AI4SEE PRIVATE LIMITED -> 6.0 | The candidate's skills in machine learning and deep learning align with the data science role, but the job listing lacks specific details to confirm a perfect match.
+2026-06-15 01:36:17,150 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:17,151 [INFO] scorer — Scored 'Artificial Intelligence (AI)' @ Wobot Intelligence Private Limited -> 8.0 | The candidate's skills in AI, Machine Learning, and Python are a strong match for the Artificial Intelligence job listing, but the location is not specified, which is the only drawback.
+2026-06-15 01:36:17,635 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:17,636 [INFO] scorer — Scored 'Artificial Intelligence (AI)' @ AimLarger -> 8.0 | The candidate's skills in AI, Machine Learning, and Python are a strong match for the Artificial Intelligence job listing, but the lack of location and other details in the job listing prevents a perfect score.
+2026-06-15 01:36:18,016 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:18,017 [INFO] scorer — Scored 'Applied AI Research (Algorithms & Machine Learning)' @ Vyorius Drones Private Limited -> 8.0 | The candidate's skills in Machine Learning, Deep Learning, and Python are a strong match for the Applied AI Research role, but the stipend is relatively low considering the candidate's 2 years of experience.
+2026-06-15 01:36:18,286 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:18,287 [INFO] scorer — Scored 'PhD Research Sciences Intern' @ Microsoft -> 2.0 | The candidate is seeking roles in software development, but the job listing is for a PhD research sciences internship, which does not align with their skills or experience.
+2026-06-15 01:36:18,738 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:18,739 [INFO] scorer — Scored 'PhD Research Intern' @ Uber -> 8.0 | The candidate's skills and experience align well with a research internship, but the job listing is for a PhD research intern which may require more advanced qualifications than the candidate has.
+2026-06-15 01:36:19,187 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:19,188 [INFO] scorer — Scored 'Artificial Intelligence (AI)' @ SCARLET SPLENDOUR DESIGNS PVT LTD -> 8.0 | The candidate's skills in AI, Machine Learning, and Python are a strong match for the Artificial Intelligence job listing, but the lack of company location information and specific job details prevents a perfect score.
+2026-06-15 01:36:19,662 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:19,663 [INFO] scorer — Scored 'Data Science' @ International Institute Of SDGs & Public Policy Research -> 2.0 | The job listing does not match the candidate's preferred job roles or offer a paid internship, but the field of data science is somewhat related to the candidate's skills in machine learning and deep learning.
+2026-06-15 01:36:19,957 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:19,958 [INFO] scorer — Scored 'Data Analytics' @ TwiLearn EduTech Private Limited -> 4.0 | The candidate's skills and experience do not closely match the job title of Data Analytics, but some relevant skills like Python, Machine Learning, and scikit-learn are present.
+2026-06-15 01:36:20,280 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:20,281 [INFO] scorer — Scored 'AI & Automation' @ Fitbae Healthcare Private Limited -> 8.0 | The candidate's skills in AI, Machine Learning, and Python match the job title, but the job listing lacks specific details to confirm a perfect match.
+2026-06-15 01:36:20,630 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:20,631 [INFO] scorer — Scored 'Data Analytics' @ Zdminds -> 2.0 | The job listing lacks specific details about the role, but the title 'Data Analytics' does not directly match the candidate's preferred roles and the location is not specified, making it a weak match.
+2026-06-15 01:36:20,994 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:20,995 [INFO] scorer — Scored 'Data Science' @ Emoolar Technology Private Limited -> 6.0 | The candidate's skills in Machine Learning and Python align with the Data Science role, but the job listing lacks specific details about the position and the stipend is relatively low.
+2026-06-15 01:36:21,442 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:21,443 [INFO] scorer — Scored 'Data Analytics' @ Harshad Enterprises -> 2.0 | The job listing lacks specific details about the role, but the title 'Data Analytics' does not directly match the candidate's preferred roles and the location is not specified, which are key factors in determining a good match.
+2026-06-15 01:36:21,760 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:21,761 [INFO] scorer — Scored 'Data Science' @ Maxgen Technologies Private Limited -> 6.0 | The candidate's skills in Machine Learning, Deep Learning, and Python are relevant to the Data Science role, but the job title and description lack specific details to confirm a perfect match.
+2026-06-15 01:36:22,207 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:22,208 [INFO] scorer — Scored 'Data Analytics' @ Neurasys -> 2.0 | The job listing lacks specific details about the role, but the title 'Data Analytics' does not directly match the candidate's preferred roles and the location is not specified, making it a poor match.
+2026-06-15 01:36:22,502 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:22,502 [INFO] scorer — Scored 'Data Science' @ Fitbae Healthcare Private Limited -> 6.0 | The candidate's skills in machine learning and Python align with the data science role, but the job listing lacks specific details to confirm a perfect match.
+2026-06-15 01:36:22,900 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:22,901 [INFO] scorer — Scored 'People Consulting - Learning - Intern' @ Ernst & Young -> 2.0 | The job listing lacks specific details about the role, but the company and stipend suggest a potentially good opportunity, however, it does not clearly align with the candidate's technical skills or preferred roles.
+2026-06-15 01:36:23,220 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:23,221 [INFO] scorer — Scored 'AI/ML Developer' @ Qriocity Ventures Private Limited -> 8.0 | The candidate's skills and role preferences align well with the job title of AI/ML Developer, but the job listing lacks information on experience requirements and location.
+2026-06-15 01:36:23,549 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:23,550 [INFO] scorer — Scored 'AI/ML Devloper' @ PadosiAgent ServTech Pvt Ltd -> 8.0 | The candidate's skills and role preferences align well with the job title, but the job listing lacks information on location and experience requirements.
+2026-06-15 01:36:23,847 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:23,849 [INFO] scorer — Scored 'AI/ML & Python' @ Meru Technosoft Private Limited -> 8.0 | The job listing matches the candidate's skills and role preferences, but lacks information about the location and job type to confirm a perfect match.
+2026-06-15 01:36:24,081 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:24,082 [INFO] scorer — Scored 'Data Annotation (Agriculture)' @ Agrograde Robotics -> 2.0 | The candidate's skills and experience do not align with the job listing for a data annotation role in agriculture.
+2026-06-15 01:36:24,384 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:24,385 [INFO] scorer — Scored 'Recommendation System' @ International Institute Of SDGs & Public Policy Research -> 2.0 | The candidate is seeking a paid role, but the job listing is unpaid, making it a poor match despite potential skill alignment.
+2026-06-15 01:36:24,763 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:24,765 [INFO] scorer — Scored 'Linguistic Annotation' @ Graveiens Eduservices Private Limited -> 2.0 | The job listing lacks information about the role, required skills, and experience, making it difficult to determine a strong match with the candidate's profile.
+2026-06-15 01:36:25,292 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:25,293 [INFO] scorer — Scored 'Machine Learning (Modeling and Evaluation)' @ Primetrade.ai -> 8.0 | The candidate's skills in Machine Learning, Deep Learning, and Python are a strong match for the job, but the job listing lacks information on company location and other details to confirm a perfect match.
+2026-06-15 01:36:25,767 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:25,768 [INFO] scorer — Scored 'Junior Machine Learning Specialist' @ Warewe Consultancy Private Limited -> 8.0 | The candidate's skills in Machine Learning, Python, and relevant experience align well with the Junior Machine Learning Specialist role, but the job listing lacks location information to confirm a perfect match.
+2026-06-15 01:36:26,152 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:26,153 [INFO] scorer — Scored 'Machine Learning' @ Maxgen Technologies Private Limited -> 8.0 | The candidate's skills in Machine Learning, Python, and relevant frameworks are a strong match for the job title, but the job listing lacks specific details about the role and requirements.
+2026-06-15 01:36:26,470 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:26,471 [INFO] scorer — Scored 'Machine Learning' @ Career Solutions -> 8.0 | The candidate's skills and role preferences align well with the job title, but the job listing lacks specific details about the job type, location, and required skills.
+2026-06-15 01:36:26,814 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:26,815 [INFO] scorer — Scored 'Machine Learning' @ Zdminds -> 8.0 | The candidate's skills in Machine Learning and Python are a strong match for the job title, but the job listing lacks specific details about the role and requirements.
+2026-06-15 01:36:27,226 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:27,227 [INFO] scorer — Scored 'Machine Learning' @ Maxgen Technologies Private Limited -> 8.0 | The candidate's skills and role preferences align well with the job title, but the job listing lacks specific details about the job requirements and location.
+2026-06-15 01:36:27,540 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:27,541 [INFO] scorer — Scored 'Machine Learning' @ TwiLearn EduTech Private Limited -> 8.0 | The candidate's skills in Machine Learning, Python, and relevant frameworks match the job title, but the job listing lacks specific details about the role and requirements.
+2026-06-15 01:36:27,618 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:36:27,619 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:36:29,934 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:29,935 [INFO] scorer — Scored 'Machine Learning' @ TSTEPS PRIVATE LIMITED -> 8.0 | The candidate's skills in Machine Learning, Python, and relevant frameworks align well with the job title, but the job listing lacks specific details about the role and requirements.
+2026-06-15 01:36:30,006 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:36:30,007 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:36:32,578 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:32,579 [INFO] scorer — Scored 'Machine Learning' @ Qubixo -> 8.0 | The candidate's skills in Machine Learning, Python, and relevant frameworks are a strong match for the job title, but the job listing lacks specific details about the role and company.
+2026-06-15 01:36:32,650 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:36:32,650 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:36:35,081 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:35,082 [INFO] scorer — Scored 'Machine Learning' @ CareerNest -> 8.0 | The candidate's skills and role preferences align well with the job title, but the job listing lacks specific details about the job type, location, and required skills to confirm a perfect match.
+2026-06-15 01:36:35,155 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:36:35,156 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:36:37,465 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:37,466 [INFO] scorer — Scored 'Machine Learning' @ Symonis -> 8.0 | The candidate's skills and role preferences align well with the job title, but the location is not specified in the job listing, which is a key factor in the candidate's preferences.
+2026-06-15 01:36:37,535 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:36:37,535 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:36:39,753 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:39,754 [INFO] scorer — Scored 'Machine Learning' @ Basti Ki Pathshala Foundation -> 6.0 | The candidate's skills and role preferences align with the job title, but the job is unpaid, which may not be desirable for the candidate.
+2026-06-15 01:36:39,828 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:36:39,829 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:36:42,083 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:42,084 [INFO] scorer — Scored 'Machine Learning' @ She Can Foundation -> 8.0 | The candidate's skills and role preferences align well with the job title, but the unpaid stipend may be a drawback for the candidate.
+2026-06-15 01:36:42,156 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:36:42,157 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:36:44,462 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:44,463 [INFO] scorer — Scored 'Machine Learning' @ NayePankh Foundation -> 6.0 | The candidate's skills and role preferences align with the job title, but the job is unpaid and location is not specified, which may not meet the candidate's expectations.
+2026-06-15 01:36:44,519 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:36:44,520 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:36:46,845 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:46,846 [INFO] scorer — Scored 'Machine Learning' @ Queens Of Change Foundation -> 6.0 | The candidate's skills and role preferences align with the job title, but the unpaid stipend may be a deterrent and the location is not specified, which could affect the match.
+2026-06-15 01:36:46,899 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:36:46,899 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:36:49,299 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:49,300 [INFO] scorer — Scored 'Machine Learning' @ Cloud Back -> 8.0 | The candidate's skills in Machine Learning, Python, and related technologies align well with the job title, but the job listing lacks specific details about the role and company.
+2026-06-15 01:36:49,360 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:36:49,360 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:36:51,584 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:51,585 [INFO] scorer — Scored 'Machine Learning' @ Neurasys -> 8.0 | The candidate's skills and role preferences align well with the job title, but the location is not specified in the job listing.
+2026-06-15 01:36:51,642 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:36:51,643 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:36:53,972 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:53,973 [INFO] scorer — Scored 'Backend Development' @ Meteoros Automation -> 8.0 | The candidate's skills in Backend Development with Python, Django, and REST APIs align with the job listing, but the job details are incomplete, making it difficult to assess a perfect match.
+2026-06-15 01:36:54,036 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:36:54,037 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:36:56,231 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:56,232 [INFO] scorer — Scored 'Golang Developer' @ AppVersal -> 1.0 | The candidate's skills and experience do not match the job listing's requirement for a Golang Developer.
+2026-06-15 01:36:56,291 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:36:56,291 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:36:58,512 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:36:58,513 [INFO] scorer — Scored 'Electronics/Embedded/Robotics Engineer' @ Interface Design Associates Private Limited -> 1.0 | The candidate's skills and roles sought do not align with the job listing for an Electronics/Embedded/Robotics Engineer position.
+2026-06-15 01:36:58,574 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:36:58,574 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:00,810 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:00,811 [INFO] scorer — Scored 'Electronics Engineering' @ ABMR TradeX -> 1.0 | The job listing is for an Electronics Engineering role, which does not match the candidate's skills or preferred roles.
+2026-06-15 01:37:00,898 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:00,899 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:03,116 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:03,117 [INFO] scorer — Scored 'Electronics Engineering' @ Apeiron Mobility -> 1.0 | The candidate's skills and roles sought do not align with the job listing for an Electronics Engineering position.
+2026-06-15 01:37:03,198 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:03,199 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:05,406 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:05,407 [INFO] scorer — Scored 'Electronics Engineering' @ After Passout Private Limited -> 1.0 | The job listing is for an Electronics Engineering role, which does not match the candidate's skills or preferred roles.
+2026-06-15 01:37:05,464 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:05,465 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:07,684 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:07,685 [INFO] scorer — Scored 'Embedded Systems' @ Saltriver Infosystems Private Limited -> 1.0 | The candidate's skills and experience do not align with the job listing for an Embedded Systems position.
+2026-06-15 01:37:07,778 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:07,779 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:10,046 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:10,047 [INFO] scorer — Scored 'Embedded Systems Engineer' @ Cosy Farms -> 1.0 | The candidate's skills and roles sought do not align with the job listing for an Embedded Systems Engineer position.
+2026-06-15 01:37:10,105 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:10,105 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:12,333 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:12,334 [INFO] scorer — Scored 'Embedded Systems' @ Gayam Motor Works Private Limited -> 1.0 | The candidate's skills and experience do not align with the job listing for an Embedded Systems position.
+2026-06-15 01:37:12,395 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:12,395 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:14,746 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:14,747 [INFO] scorer — Scored 'Embedded Firmware' @ Euphotic Labs Private Limited -> 1.0 | The candidate's skills and experience do not align with the job listing for Embedded Firmware, which is unrelated to their preferred roles and technical expertise.
+2026-06-15 01:37:14,821 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:14,822 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:17,007 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:17,008 [INFO] scorer — Scored 'Embedded Systems / IoT' @ AVITRONIX -> 1.0 | The candidate's skills and experience do not align with the job listing for Embedded Systems / IoT.
+2026-06-15 01:37:17,090 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:17,090 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:19,380 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:19,381 [INFO] scorer — Scored 'MERN Stack cum Python Developer (AI ML)' @ Meru Technosoft Private Limited -> 8.0 | The candidate's skills in Python, Machine Learning, and Deep Learning align with the job listing, but the job requires MERN Stack experience which is not mentioned in the candidate's profile.
+2026-06-15 01:37:19,479 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:19,479 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:21,876 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:21,877 [INFO] scorer — Scored 'AI & Python Developer' @ Acumensa Technologies -> 8.0 | The candidate's skills and role preferences align well with the job title, but the job listing lacks information on experience requirements and location to make it a perfect match.
+2026-06-15 01:37:21,958 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:21,958 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:24,177 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:24,178 [INFO] scorer — Scored 'Python Developer' @ Maxgen Technologies Private Limited -> 8.0 | The candidate's skills and role preferences align well with the job listing, but the job type is an internship which may not be the best fit for a candidate with 2 years of experience.
+2026-06-15 01:37:24,274 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:24,275 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:26,536 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:26,537 [INFO] scorer — Scored 'Python Developer' @ Maxgen Technologies Private Limited -> 8.0 | The candidate's skills and role preferences align well with the job title, but the job listing lacks information about the company and specific requirements to confirm a perfect match.
+2026-06-15 01:37:26,624 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:26,624 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:28,910 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:28,911 [INFO] scorer — Scored 'Python Developer' @ Maxgen Technologies Private Limited -> 8.0 | The candidate's skills and role preferences align well with the job listing, but the job type is not specified as an internship, which is the candidate's preference.
+2026-06-15 01:37:28,981 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:28,981 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:31,216 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:31,217 [INFO] scorer — Scored 'Content Writing' @ Testpress Tech Labs LLP -> 1.0 | The candidate's skills and experience are not relevant to the job listing for a Content Writing position.
+2026-06-15 01:37:31,287 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:31,288 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:33,628 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:33,629 [INFO] scorer — Scored 'Digital Marketing (AI Tools Focused)' @ HappinessFactors -> 2.0 | The candidate's skills and role preferences do not align with the job listing for a digital marketing position.
+2026-06-15 01:37:33,701 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:33,701 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:35,932 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:35,933 [INFO] scorer — Scored 'Digital Marketing' @ Offbeat Trip -> 1.0 | The candidate's skills and experience do not align with the job listing for a Digital Marketing role.
+2026-06-15 01:37:35,987 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:35,988 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:38,178 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:38,178 [INFO] scorer — Scored 'Digital Marketing' @ Spectrum Products -> 1.0 | The candidate's skills and job preferences do not align with the digital marketing job listing.
+2026-06-15 01:37:38,235 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:38,236 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:40,569 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:40,570 [INFO] scorer — Scored 'Content Writing' @ Multiversity Private Limited -> 1.0 | The candidate's skills and experience are not relevant to the job listing for a Content Writing position.
+2026-06-15 01:37:40,658 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:40,658 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:42,863 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:42,864 [INFO] scorer — Scored 'Social Media Marketing' @ Vetecura Life Sciences Private Limited -> 1.0 | The candidate's skills and experience do not align with the job listing for a Social Media Marketing position.
+2026-06-15 01:37:42,928 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:42,929 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:45,237 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:45,238 [INFO] scorer — Scored 'Marketing' @ Fleetx Technologies Private Limited -> 1.0 | The candidate's skills and role preferences do not align with the marketing job listing.
+2026-06-15 01:37:45,305 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:45,306 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:47,633 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:47,634 [INFO] scorer — Scored 'AI Content & Social Media' @ IndusMart -> 2.0 | The job listing does not match the candidate's technical skills and experience, and lacks information about the role and required skills.
+2026-06-15 01:37:47,692 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:47,693 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:49,954 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:49,955 [INFO] scorer — Scored 'Digital Marketing' @ Suitsyjewels -> 1.0 | The candidate's skills and experience do not align with the job listing for a Digital Marketing role.
+2026-06-15 01:37:50,013 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:50,014 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:52,202 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:52,203 [INFO] scorer — Scored 'Content and Social Media Marketing' @ DataZymes Analytics -> 1.0 | The candidate's skills and experience are not relevant to the job listing for Content and Social Media Marketing.
+2026-06-15 01:37:52,292 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:52,292 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:54,600 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:54,601 [INFO] scorer — Scored 'Content and Social Media Marketing' @ The Fitness Club -> 1.0 | The candidate's skills and experience are not relevant to the job listing for Content and Social Media Marketing.
+2026-06-15 01:37:54,655 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:54,656 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:57,217 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:57,218 [INFO] scorer — Scored 'AI Tech' @ Quantazone -> 8.0 | The candidate's skills in AI and machine learning align well with the job title, but the location is not specified and the stipend is relatively low.
+2026-06-15 01:37:57,301 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:57,302 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:37:59,652 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:37:59,653 [INFO] scorer — Scored 'Digital Marketing' @ Aura Publishing -> 1.0 | The job listing is for a Digital Marketing role, which does not match any of the roles the candidate is seeking.
+2026-06-15 01:37:59,706 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:37:59,707 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:02,067 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:02,067 [INFO] scorer — Scored 'Technical Content Researcher' @ Accredian -> 2.0 | The candidate's skills and experience do not align with the job title of Technical Content Researcher, which does not match any of their preferred roles.
+2026-06-15 01:38:02,154 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:02,155 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:04,351 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:04,352 [INFO] scorer — Scored 'Digital Marketing' @ Sash Info Services Private Limited -> 1.0 | The candidate's skills and role preferences do not align with the job listing for a Digital Marketing position.
+2026-06-15 01:38:04,465 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:04,466 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:06,665 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:06,666 [INFO] scorer — Scored 'Search Engine Optimization (SEO)' @ InstaWeb Labs Private Limited -> 1.0 | The candidate's skills and experience do not align with the job listing for Search Engine Optimization (SEO).
+2026-06-15 01:38:06,723 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:06,724 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:09,060 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:09,061 [INFO] scorer — Scored 'Search Engine Optimization (SEO)' @ EVA2Z -> 1.0 | The candidate's skills and experience do not align with the job listing for Search Engine Optimization (SEO).
+2026-06-15 01:38:09,133 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:09,133 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:11,437 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:11,437 [INFO] scorer — Scored 'Full Stack Engineer (Frontend Focus)' @ Dynoz AI -> 4.0 | The candidate's skills and experience partially align with the job listing, but the job's frontend focus does not match the candidate's preferred roles and skillset.
+2026-06-15 01:38:11,511 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:11,511 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:13,823 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:13,824 [INFO] scorer — Scored 'Full-Stack Engineer - AI-Native Platform (Claude Code Power User)' @ FlexiEle Consulting Services Private Limited -> 8.0 | The candidate's skills in Python, Machine Learning, and REST APIs align well with the job listing for a Full-Stack Engineer, but the job type is not specified as an internship, which is the candidate's preferred job type.
+2026-06-15 01:38:13,912 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:13,912 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:19,315 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:19,316 [INFO] scorer — Scored 'AI And Robotics Tariner' @ NexTech Learning Private Limited -> 6.0 | The candidate's skills in AI and Machine Learning align with the job title, but the job type and location are not specified in the listing to confirm a perfect match.
+2026-06-15 01:38:19,659 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:19,660 [INFO] scorer — Scored 'Founding Engineer (Full Stack and AI)' @ Desh AI Labs -> 8.0 | The candidate's skills in AI, Python, and Full Stack development align well with the job listing, but the job type is an internship while the listing is for a founding engineer position.
+2026-06-15 01:38:19,721 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:19,721 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:21,967 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:21,968 [INFO] scorer — Scored 'Video Editor Intern (Tech Startup)' @ Cordly AI -> 1.0 | The candidate's skills and roles sought do not align with the job listing for a Video Editor Intern position.
+2026-06-15 01:38:22,052 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:22,053 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:24,326 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:24,327 [INFO] scorer — Scored 'Digital Marketing & AI Content Intern' @ Sunita Gupta Jewellery -> 2.0 | The candidate's skills and experience in machine learning and backend development do not align with the digital marketing focus of the job listing.
+2026-06-15 01:38:24,380 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:24,381 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:26,664 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:26,665 [INFO] scorer — Scored 'Creative Process Engineer - Trainee' @ Confluencr -> 2.0 | The job title and description do not match the candidate's preferred roles or skills, indicating a low likelihood of a successful match.
+2026-06-15 01:38:26,739 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:26,740 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:29,076 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:29,077 [INFO] scorer — Scored 'GenAI LLM Engineer' @ Codefeast -> 8.0 | The candidate's skills in Machine Learning, Deep Learning, and LLMs align well with the GenAI LLM Engineer role, but the job listing lacks information on location and type, which might not perfectly match the candidate's preferences.
+2026-06-15 01:38:29,131 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:29,132 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:31,341 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:31,342 [INFO] scorer — Scored 'Applied AI Software Engineer' @ OpenVerb (Sydney, Australia) -> 6.0 | The candidate's skills align with the job title, but the location and job type do not match the candidate's preferences.
+2026-06-15 01:38:31,409 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:31,410 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:33,654 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:33,655 [INFO] scorer — Scored 'Agentic Engineer' @ CometChat -> 6.0 | The candidate's skills and experience somewhat align with the job title, but the job type and location are not specified, making it a moderate match.
+2026-06-15 01:38:33,721 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:33,721 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:35,956 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:35,956 [INFO] scorer — Scored 'GTM Engineer' @ Adfinite Solutions LLP -> 2.0 | The candidate's skills and experience do not align with the GTM Engineer role, and the job listing lacks specific details to determine a stronger match.
+2026-06-15 01:38:36,016 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:36,017 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:38,309 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:38,310 [INFO] scorer — Scored 'Senior AI Engineer (RAG & Generative AI)' @ Md Shahbaz Ansari -> 6.0 | The candidate's skills in AI and machine learning are a good match for the job, but the job title 'Senior AI Engineer' suggests a more experienced role than the candidate's 2 years of experience.
+2026-06-15 01:38:38,366 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:38,367 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:40,693 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:40,694 [INFO] scorer — Scored 'AI Engineer (RAG/LLM)' @ LC Corporate -> 8.0 | The candidate's skills and role preferences align well with the job title, but the job listing lacks location information and the stipend is relatively low considering the candidate's 2 years of experience.
+2026-06-15 01:38:40,767 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:40,768 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:43,057 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:43,058 [INFO] scorer — Scored 'AI Prompt Engineer & Tester' @ Crazy For Success Foundation -> 6.0 | The candidate's skills in AI and machine learning align with the job title, but the unpaid stipend and lack of location information may be less desirable for the candidate.
+2026-06-15 01:38:43,149 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:43,149 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:45,447 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:45,447 [INFO] scorer — Scored 'AI Video Editor Intern' @ Orange Technologies -> 8.0 | The candidate's skills in Machine Learning, Deep Learning, and Python are a strong match for the AI Video Editor Intern role, but the job description lacks specific details to confirm a perfect match.
+2026-06-15 01:38:45,507 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:45,507 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:47,939 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:47,940 [INFO] scorer — Scored 'AI Engineer - Remote' @ Ikigai School Of AI -> 9.0 | The candidate's skills and role preferences align well with the job listing, but the job type is not explicitly mentioned as an internship, which is the candidate's preferred job type.
+2026-06-15 01:38:48,027 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:48,027 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:50,443 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:50,444 [INFO] scorer — Scored 'AI Solution Engineer' @ Resolute AI Software Private Limited -> 8.0 | The candidate's skills in Machine Learning, Deep Learning, and AI align well with the AI Solution Engineer role, but the stipend is relatively low considering the candidate's 2 years of experience.
+2026-06-15 01:38:50,515 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:50,516 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:52,931 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:52,932 [INFO] scorer — Scored 'AI Engineer' @ Quick Dry Cleaning -> 8.0 | The candidate's role preference and skills align well with the job title of AI Engineer, but the company and stipend details are unclear and may not match the candidate's expectations.
+2026-06-15 01:38:53,008 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:53,008 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:55,261 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:55,262 [INFO] scorer — Scored 'AI Engineer' @ Build Fast With AI -> 8.0 | The candidate's skills and role preferences align well with the job title, but the job listing lacks information on location and experience requirements.
+2026-06-15 01:38:55,339 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:55,340 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:38:57,672 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:38:57,673 [INFO] scorer — Scored 'Search Engine Optimization (SEO)' @ Times Internet Limited -> 1.0 | The candidate's skills and experience do not align with the job listing for a Search Engine Optimization role.
+2026-06-15 01:38:57,726 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:38:57,726 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:39:00,040 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:39:00,041 [INFO] scorer — Scored 'AI/ML Engineer' @ Per4mance Guru -> 8.0 | The candidate's skills and role preferences align well with the AI/ML Engineer job listing, but the job details are incomplete, particularly the location, which might affect the candidate's interest.
+2026-06-15 01:39:00,098 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:39:00,099 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:39:02,403 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:39:02,404 [INFO] scorer — Scored 'Engineer Intern' @ Taar -> 6.0 | The candidate's job type preference matches the internship listing, but the location and other details are not specified in the job listing to fully assess the match.
+2026-06-15 01:39:02,431 [INFO] JobAgent — 5 top jobs. Tailoring resumes + cover letters...
+2026-06-15 01:39:02,522 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:39:02,523 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:39:05,899 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:39:05,900 [INFO] tailor — Resume tailored for: AI Engineer - Remote @ Ikigai School Of AI
+2026-06-15 01:39:05,948 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:39:05,949 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:39:08,524 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:39:08,525 [INFO] tailor — Cover letter generated for: AI Engineer - Remote @ Ikigai School Of AI
+2026-06-15 01:39:08,580 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:39:08,580 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:39:11,785 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:39:11,787 [INFO] tailor — Resume tailored for: AI/ML Engineer @ Per4mance Guru
+2026-06-15 01:39:11,837 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:39:11,838 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:39:14,402 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:39:14,403 [INFO] tailor — Cover letter generated for: AI/ML Engineer @ Per4mance Guru
+2026-06-15 01:39:14,457 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:39:14,457 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:39:17,754 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:39:17,755 [INFO] tailor — Resume tailored for: AI Engineer @ Build Fast With AI
+2026-06-15 01:39:17,808 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:39:17,808 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:39:20,635 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:39:20,636 [INFO] tailor — Cover letter generated for: AI Engineer @ Build Fast With AI
+2026-06-15 01:39:20,692 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:39:20,693 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:39:23,978 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:39:23,979 [INFO] tailor — Resume tailored for: AI Engineer @ Quick Dry Cleaning
+2026-06-15 01:39:24,032 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:39:24,033 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:39:26,437 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:39:26,439 [INFO] tailor — Cover letter generated for: AI Engineer @ Quick Dry Cleaning
+2026-06-15 01:39:26,488 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:39:26,488 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:39:29,771 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:39:29,772 [INFO] tailor — Resume tailored for: AI Solution Engineer @ Resolute AI Software Private Limited
+2026-06-15 01:39:29,825 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-15 01:39:29,825 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-15 01:39:32,479 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-15 01:39:32,480 [INFO] tailor — Cover letter generated for: AI Solution Engineer @ Resolute AI Software Private Limited
+2026-06-15 01:39:32,485 [WARNING] pdf_generator — reportlab not installed — PDF generation disabled. Run: pip install reportlab
+2026-06-15 01:39:32,515 [INFO] JobAgent — ============================================================
+2026-06-15 01:39:32,515 [INFO] JobAgent — WEEK 3 — PDF Generator + Email Digest
+2026-06-15 01:39:32,516 [INFO] JobAgent — ============================================================
+2026-06-15 01:39:32,516 [ERROR] JobAgent — PDF generation failed: reportlab is not installed. Run: pip install reportlab
+2026-06-15 01:39:32,516 [ERROR] JobAgent — PDF generation failed: reportlab is not installed. Run: pip install reportlab
+2026-06-15 01:39:32,516 [ERROR] JobAgent — PDF generation failed: reportlab is not installed. Run: pip install reportlab
+2026-06-15 01:39:32,516 [ERROR] JobAgent — PDF generation failed: reportlab is not installed. Run: pip install reportlab
+2026-06-15 01:39:32,516 [ERROR] JobAgent — PDF generation failed: reportlab is not installed. Run: pip install reportlab
+2026-06-15 01:39:34,674 [ERROR] emailer — Gmail auth failed. Make sure you're using an App Password, not your real password.
+2026-06-15 01:39:34,675 [ERROR] emailer — Create one at: https://myaccount.google.com/apppasswords
+2026-06-15 01:39:34,691 [INFO] JobAgent — Pipeline complete! DB stats: {'total': 95, 'scored': 95, 'top_matches': 40, 'applied': 0}
