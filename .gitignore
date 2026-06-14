@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+data/jobagent.db
+data/pdfs/
+logs/
+.env
