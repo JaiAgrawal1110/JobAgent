@@ -1,43 +1,165 @@
 {
-  "name": "Your Full Name",
-  "email": "you@gmail.com",
-  "phone": "+91-XXXXXXXXXX",
-  "linkedin": "linkedin.com/in/yourprofile",
-  "github": "github.com/yourusername",
-  "summary": "Passionate ML/AI Engineer with 2 years of experience building Python-based systems, REST APIs, and LLM-powered applications. Strong background in deep learning, data pipelines, and deploying scalable backend services.",
+  "name": "Jai Agrawal",
+  "email": "jaiagrawal1110@gmail.com",
+  "phone": "+91-9694863033",
+  "location": "Bengaluru, India",
+  "linkedin": "linkedin.com/in/jaiagrawal1110",
+  "github": "github.com/jaiagrawal1110",
+
+  "summary": "4th-year B.Tech CSE (AI) student at MIT Bengaluru with a consistent track record of shipping production-grade systems - from real-time industrial AI platforms deployed on AWS to RAG pipelines, deep learning models, and autonomous AI agents. Experienced across the full stack: backend APIs, ML/GenAI, cloud deployment, and client-facing delivery.",
+
   "skills": [
-    "Python", "Machine Learning", "Deep Learning", "FastAPI", "Django",
-    "PostgreSQL", "SQLite", "REST APIs", "Claude API", "LLMs",
-    "TensorFlow", "PyTorch", "scikit-learn", "Docker", "Git"
+    "Python", "Java", "SQL", "C", "JavaScript", "TypeScript", "Bash",
+    "Deep Learning", "TensorFlow", "Keras", "Scikit-learn", "OpenCV", "YOLOv8", "U-Net", "NLP", "NumPy", "Pandas",
+    "LangChain", "ChromaDB", "Groq (Llama3)", "Vector Databases", "RAG Pipelines", "LLM APIs", "Prompt Engineering",
+    "FastAPI", "Django", "REST APIs", "OPC UA", "ETL Pipelines", "MongoDB", "PostgreSQL", "MySQL", "Redis", "WebSockets",
+    "Next.js", "React.js", "Tailwind CSS", "HTML", "CSS", "Streamlit",
+    "AWS EC2", "Docker", "Docker Compose", "Nginx", "Git", "GitHub", "Azure (basic)",
+    "Figma", "Postman", "Tableau"
   ],
+
+  "education": {
+    "degree": "B.Tech in CSE (AI)",
+    "institute": "Manipal Institute of Technology, Bengaluru",
+    "year": "2023 - 2027",
+    "details": "CGPA: 7.8 | 8.44 (Last 2 Sems)"
+  },
+
   "experience": [
     {
-      "role": "Machine Learning Intern",
-      "company": "Your Previous Company",
-      "duration": "Jun 2023 – Dec 2023",
+      "role": "Data Analyst Intern",
+      "company": "INDXO AI",
+      "location": "Bengaluru, India",
+      "duration": "Feb 2025 - Jul 2025",
       "bullets": [
-        "Built a text classification pipeline using BERT achieving 94% accuracy on production customer support data.",
-        "Reduced model inference latency by 40% by exporting models to ONNX and deploying with FastAPI.",
-        "Collaborated with the product team to integrate ML features shipped to 10,000+ active users.",
-        "Wrote data preprocessing pipelines in Python that reduced manual cleaning effort by 60%."
+        "Built and deployed production-grade RESTful backend APIs (Python, Django, OPC UA) for real-time CNC machine monitoring with 2-second refresh intervals, enabling continuous telemetry ingestion and operational analytics across multiple machines simultaneously.",
+        "Developed a machine-state classification system (Running / Idle / Error) that surfaced production-ready operational insights from raw sensor data; code reviewed, approved, and merged into the core engineering repository.",
+        "Designed a scalable multi-machine ETL pipeline architecture with end-to-end ownership - from data ingestion and schema design to trend visualisation and threshold-based alerting for business stakeholders.",
+        "Validated the full system as a proof-of-concept before production rollout; troubleshot and resolved integration issues across the OPC UA-Django-MongoDB stack under senior mentorship."
+      ]
+    },
+    {
+      "role": "Technical Operations Lead (Part-time)",
+      "company": "House of Beau (Remote)",
+      "location": "Remote",
+      "duration": "May 2026 - Present",
+      "bullets": [
+        "Sole technical owner of end-to-end e-commerce infrastructure - architected and deployed a custom Shopify storefront from scratch, handling domain configuration, theme customisation, and go-live launch coordination.",
+        "Built internal operational workflows for inventory management and catalog automation, reducing manual overhead for business stakeholders.",
+        "Generated and interpreted sales/inventory analytics to surface actionable business insights; presented findings directly to stakeholders.",
+        "Onboarded and trained non-technical team members on platform workflows - bridging the gap between technical systems and business operations."
+      ]
+    },
+    {
+      "role": "Freelance Web Developer (Part-time)",
+      "company": "Self-Employed",
+      "location": "Bengaluru, India",
+      "duration": "Feb 2026 - Present",
+      "bullets": [
+        "Independently acquired and delivered client projects end-to-end - from requirements gathering and design to deployment - across multiple industries.",
+        "Built and launched custom websites and Shopify storefronts tailored to each client's business needs, handling full technical delivery solo.",
+        "Managed complete client communication cycles - scoping, iterative feedback, and on-time delivery - demonstrating ownership and reliability under real business expectations."
       ]
     }
   ],
+
   "projects": [
     {
-      "name": "JobAgent AI",
-      "description": "Autonomous job-hunting pipeline that scrapes 50+ daily listings, scores them with Claude API, tailors resumes, and sends a morning digest email with PDF attachments.",
-      "tech": ["Python", "Claude API", "SQLite", "BeautifulSoup", "ReportLab", "Gmail SMTP"]
+      "name": "ForgeMind AI - Industrial Machine Monitoring Platform",
+      "tech": ["Python", "FastAPI", "React", "MongoDB", "Redis", "Docker", "AWS", "Isolation Forest"],
+      "bullets": [
+        "Built a real-time AI-powered platform monitoring 6 CNC machines simultaneously with 2-second telemetry refresh, an Isolation Forest anomaly detection model achieving 95% accuracy, a dual-layer alert system, and Redis caching delivering ~80% API response time improvement - deployed on AWS EC2 via Docker with 15+ REST endpoints and WebSocket streams.",
+        "Architected the full production stack end-to-end: async FastAPI backend, Motor (MongoDB async driver), React dashboard with live Recharts visualisations, Nginx reverse proxy, and Dockerised microservices."
+      ]
     },
     {
-      "name": "Your Second Project",
-      "description": "Brief description of what it does, what problem it solves, and the impact.",
-      "tech": ["Python", "FastAPI", "PostgreSQL", "Docker"]
+      "name": "FinQuery - Financial Document RAG System",
+      "tech": ["Python", "FastAPI", "ChromaDB", "LangChain", "Groq (Llama3)", "Next.js", "PostgreSQL", "Docker"],
+      "bullets": [
+        "Built a production-grade Retrieval-Augmented Generation (RAG) system for financial document analysis - enabling natural language Q&A over SEC filings, annual reports, and earnings transcripts with cited answers and semantic search powered by ChromaDB and sentence-transformer embeddings.",
+        "Engineered a full-stack pipeline from PDF ingestion and chunking through vector storage, Groq LLM inference, and a Next.js frontend with conversation memory - deployed on AWS EC2 with Docker Compose and CI/CD."
+      ]
+    },
+    {
+      "name": "JobAgent - Autonomous Job-Hunting AI Pipeline",
+      "tech": ["Python", "Groq", "BeautifulSoup", "SQLite", "ReportLab", "Gmail SMTP", "Scheduler"],
+      "bullets": [
+        "Built a fully autonomous job-hunting agent that runs daily at 7 AM - scraping listings, scoring each against a user profile using an LLM (1-10 match score with reasoning), and filtering above a configurable threshold; implemented SHA-256 deduplication via SQLite.",
+        "Engineered an end-to-end LLM-powered personalisation pipeline: tailors the resume and generates a custom cover letter per job, ReportLab renders both as PDFs, and Gmail SMTP delivers a formatted daily digest - fully automated from scrape to inbox."
+      ]
+    },
+    {
+      "name": "VisionAI - Real-time Navigation Assistant for the Visually Impaired",
+      "tech": ["Python", "YOLOv8", "OpenCV"],
+      "bullets": [
+        "Built an AI-powered real-time navigation assistant using YOLOv8 and OpenCV to detect obstacles, estimate distances, and deliver voice-based guidance for visually impaired users; achieved 92.8% detection accuracy at real-time inference speeds.",
+        "Architected an end-to-end perception-to-speech pipeline - object detection, spatial reasoning, voice output - designed for low-latency deployment on edge hardware."
+      ]
+    },
+    {
+      "name": "Brain Tumor Segmentation",
+      "tech": ["Python", "TensorFlow", "Keras", "U-Net", "OpenCV", "Streamlit"],
+      "bullets": [
+        "Engineered an end-to-end U-Net pipeline for pixel-level brain tumor segmentation on MRI scans; trained on 19,000+ preprocessed 2D slices extracted from 3D NIfTI volumes of the BraTS2020 dataset.",
+        "Implemented custom Dice Loss and IoU metrics alongside data augmentation; deployed as a Streamlit web app enabling real-time tumor mask prediction."
+      ]
+    },
+    {
+      "name": "Real-time CNC Data Dashboard",
+      "tech": ["Django", "MongoDB", "OPC UA", "HTML", "CSS"],
+      "bullets": [
+        "Built a production-deployed real-time industrial monitoring dashboard tracking CNC machine telemetry across multi-machine environments with automated 2-second data refresh and threshold-based alerting.",
+        "Designed a MongoDB schema supporting historical trend analytics and stakeholder reporting; delivered with full end-to-end ownership from backend API design to frontend integration."
+      ]
+    },
+    {
+      "name": "Lip Reading System - Sequence Prediction from Silent Video",
+      "tech": ["Python", "TensorFlow", "OpenCV"],
+      "bullets": [
+        "Framed lip reading as a temporal sequence modelling problem: trained a deep learning model to predict spoken words from silent video frames, achieving ~80% accuracy on 1k-2k labelled samples.",
+        "Built an automated subtitle generation pipeline on top of the model output, improving accessibility for hearing-impaired users."
+      ]
+    },
+    {
+      "name": "Predictive Maintenance Web App (EY Techathon 6.0)",
+      "tech": ["Python", "Scikit-learn", "Django", "REST APIs"],
+      "bullets": [
+        "Built a full-stack automobile maintenance platform with role-based User and Admin dashboards, vehicle sensor analytics, and real-time component failure alerts - designed and shipped end-to-end within the hackathon window."
+      ]
+    },
+    {
+      "name": "AutomationML Intelligence Suite (Honeywell 48-hr Hackathon)",
+      "tech": ["C#", "OPC UA", "MongoDB"],
+      "bullets": [
+        "Built a C# application suite that parses AutomationML (AML) files to extract OPC UA node definitions and dynamically spins up a fully working OPC UA server for simulation; stores telemetry data in MongoDB.",
+        "Delivered under 48-hour time pressure as part of a Top 12 / 150 Teams finish."
+      ]
+    },
+    {
+      "name": "Jarvis - Voice-Controlled AI Assistant",
+      "tech": ["Python", "SpeechRecognition", "Spotify API", "YouTube API"],
+      "bullets": [
+        "Built a modular voice-controlled AI assistant using a speech-to-text pipeline for intent parsing, orchestrating actions across Spotify and YouTube APIs with a command-routing architecture designed for easy extensibility; published open-source on GitHub."
+      ]
     }
   ],
-  "education": {
-    "degree": "B.Tech / B.E. in Computer Science",
-    "institute": "Your University Name",
-    "year": "2025"
-  }
+
+  "leadership": [
+    {
+      "title": "Startup Guidance & Development Head - E-Cell MIT",
+      "details": "Mentoring 9 student startups on research, solution validation, and go-to-market strategies; hosted 2 alumni podcast episodes on the official E-Cell YouTube channel."
+    },
+    {
+      "title": "Top 12 / 150 Teams - Honeywell 48-hour Hackathon",
+      "details": "Built the AutomationML Intelligence Suite - a C# + OPC UA system that parses AML files and spins up live OPC UA servers - under time pressure."
+    },
+    {
+      "title": "EY Techathon 6.0 - Certificate of Appreciation",
+      "details": "Designed and deployed a full-stack predictive maintenance platform for the automobile industry within the hackathon window."
+    },
+    {
+      "title": "Panel Genesis (3-day Event Lead)",
+      "details": "Managed 15 competing teams, coordinated with 12 judges, and led a 5-member operations team to execute the event end-to-end."
+    }
+  ]
 }

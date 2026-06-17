@@ -23,7 +23,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger("JobAgent")
 
-from database import init_db, bulk_insert_jobs, get_unscored_jobs, update_score, get_top_jobs, get_stats
+from database import init_db, bulk_insert_jobs, get_unscored_jobs, update_score, get_top_jobs, get_stats, mark_applied
 from scrapers import scrape_indeed, scrape_internshala, scrape_wellfound
 from config import SCORE_THRESHOLD, TOP_JOBS_PER_DAY
 
@@ -81,7 +81,20 @@ def run_pdf_and_email(applications):
             pdf_paths.append(path)
         except Exception as e:
             logger.error("PDF generation failed: %s", e)
-    send_digest(applications, pdf_paths)
+
+    email_sent = send_digest(applications, pdf_paths)
+
+    if email_sent:
+        # Mark these jobs as "applied" (i.e. already sent in a digest) so the
+        # same jobs don't get re-sent in tomorrow's digest.
+        for app in applications:
+            job_id = app["job"].get("id")
+            if job_id:
+                mark_applied(job_id)
+        logger.info("Marked %d jobs as sent/applied — they won't repeat tomorrow.", len(applications))
+    else:
+        logger.warning("Email failed to send — jobs NOT marked as applied, will retry next run.")
+
     return pdf_paths
 
 
