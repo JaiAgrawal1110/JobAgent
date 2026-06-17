@@ -126,13 +126,14 @@ def update_score(job_id: int, score: float):
 
 
 def get_top_jobs(threshold: float = 7.0, limit: int = 5) -> list[dict]:
-    """Fetch highest-scored jobs that haven't been sent in a digest yet."""
+    """Fetch highest-scored jobs that haven't been sent in a digest yet.
+    Ties on score break in favor of the most recently fetched (i.e. newest) job."""
     conn = get_connection()
     rows = conn.execute(
         """
         SELECT * FROM jobs
         WHERE score >= ? AND applied = 0
-        ORDER BY score DESC
+        ORDER BY score DESC, fetched_at DESC
         LIMIT ?
         """,
         (threshold, limit)

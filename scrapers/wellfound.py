@@ -36,8 +36,8 @@ ROLE_SLUGS = {
 
 
 def scrape_role_page(role_slug: str) -> list[dict]:
-    """Scrape a Wellfound role listing page."""
-    url = f"{BASE_URL}/role/{role_slug}?location_type=remote&location_type=in-office"
+    """Scrape a Wellfound role listing page, sorted newest-first."""
+    url = f"{BASE_URL}/role/{role_slug}?location_type=remote&location_type=in-office&sort=recency"
     jobs = []
 
     try:

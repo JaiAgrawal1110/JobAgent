@@ -804,3 +804,119 @@
 2026-06-18 00:40:16,735 [INFO] pdf_generator — Resume fits on 1 page at scale=1.00
 2026-06-18 00:40:16,751 [INFO] pdf_generator — PDF generated: data/pdfs/resume_Resolute_AI_Software_Private_Limited_AI_Solution_Engineer.pdf
 2026-06-18 00:40:20,423 [INFO] JobAgent — Pipeline complete! DB stats: {'total': 123, 'scored': 123, 'top_matches': 50, 'applied': 0}
+2026-06-18 00:52:59,029 [INFO] JobAgent — JobAgent AI — Full Pipeline starting
+2026-06-18 00:52:59,029 [INFO] JobAgent — Run time: 2026-06-18 00:52:59
+2026-06-18 00:52:59,030 [INFO] JobAgent — ============================================================
+2026-06-18 00:52:59,030 [INFO] JobAgent — WEEK 1 — Scraper Pipeline
+2026-06-18 00:52:59,030 [INFO] JobAgent — ============================================================
+2026-06-18 00:52:59,034 [INFO] database — Database initialised at data/jobagent.db
+2026-06-18 00:52:59,034 [INFO] JobAgent — Scraping Indeed...
+2026-06-18 00:52:59,560 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=ML+engineer+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-18 00:52:59,561 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=ML+engineer+intern&l=Bangalore&s | Indeed]: 0 jobs
+2026-06-18 00:53:00,692 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=ML+engineer+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-18 00:53:00,693 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=ML+engineer+intern&l=Jaipur&sort | Indeed]: 0 jobs
+2026-06-18 00:53:01,857 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=ML+engineer+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-18 00:53:01,857 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=ML+engineer+intern&l=Remote+Indi | Indeed]: 0 jobs
+2026-06-18 00:53:02,995 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=AI+engineer+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-18 00:53:02,995 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=AI+engineer+intern&l=Bangalore&s | Indeed]: 0 jobs
+2026-06-18 00:53:04,325 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=AI+engineer+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-18 00:53:04,325 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=AI+engineer+intern&l=Jaipur&sort | Indeed]: 0 jobs
+2026-06-18 00:53:05,459 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=AI+engineer+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-18 00:53:05,460 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=AI+engineer+intern&l=Remote+Indi | Indeed]: 0 jobs
+2026-06-18 00:53:06,599 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=Python+developer+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-18 00:53:06,600 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=Python+developer+intern&l=Bangal | Indeed]: 0 jobs
+2026-06-18 00:53:07,742 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=Python+developer+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-18 00:53:07,743 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=Python+developer+intern&l=Jaipur | Indeed]: 0 jobs
+2026-06-18 00:53:09,100 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=Python+developer+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-18 00:53:09,100 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=Python+developer+intern&l=Remote | Indeed]: 0 jobs
+2026-06-18 00:53:10,236 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=backend+developer+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-18 00:53:10,237 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=backend+developer+intern&l=Banga | Indeed]: 0 jobs
+2026-06-18 00:53:11,628 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=backend+developer+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-18 00:53:11,629 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=backend+developer+intern&l=Jaipu | Indeed]: 0 jobs
+2026-06-18 00:53:12,975 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=backend+developer+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-18 00:53:12,976 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=backend+developer+intern&l=Remot | Indeed]: 0 jobs
+2026-06-18 00:53:14,125 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=machine+learning+intern&l=Bangalore&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-18 00:53:14,126 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=machine+learning+intern&l=Bangal | Indeed]: 0 jobs
+2026-06-18 00:53:15,493 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=machine+learning+intern&l=Jaipur&sort=date&fromage=1&limit=25: <unknown>:6:71: not well-formed (invalid token)
+2026-06-18 00:53:15,494 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=machine+learning+intern&l=Jaipur | Indeed]: 0 jobs
+2026-06-18 00:53:16,626 [WARNING] scrapers.indeed — Feed parse warning for https://in.indeed.com/rss?q=machine+learning+intern&l=Remote+India&sort=date&fromage=1&limit=25: <unknown>:2:6682: not well-formed (invalid token)
+2026-06-18 00:53:16,627 [INFO] scrapers.indeed — Indeed [https://in.indeed.com/rss?q=machine+learning+intern&l=Remote | Indeed]: 0 jobs
+2026-06-18 00:53:17,627 [INFO] scrapers.indeed — Indeed total raw jobs: 0
+2026-06-18 00:53:17,628 [INFO] JobAgent — Indeed: 0 jobs fetched
+2026-06-18 00:53:17,628 [INFO] JobAgent — Scraping Internshala...
+2026-06-18 00:53:19,352 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-ml-engineer-intern/location-bangalore/sort-by-date-desc]: found 5 cards
+2026-06-18 00:53:22,856 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-ml-engineer-intern/location-jaipur/sort-by-date-desc]: found 5 cards
+2026-06-18 00:53:26,572 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-ml-engineer-intern/location-remote-india/sort-by-date-desc]: found 5 cards
+2026-06-18 00:53:30,681 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-ai-engineer-intern/location-bangalore/sort-by-date-desc]: found 40 cards
+2026-06-18 00:53:34,846 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-ai-engineer-intern/location-jaipur/sort-by-date-desc]: found 40 cards
+2026-06-18 00:53:39,147 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-ai-engineer-intern/location-remote-india/sort-by-date-desc]: found 40 cards
+2026-06-18 00:53:43,165 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-python-developer-intern/location-bangalore/sort-by-date-desc]: found 21 cards
+2026-06-18 00:53:47,074 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-python-developer-intern/location-jaipur/sort-by-date-desc]: found 21 cards
+2026-06-18 00:53:50,950 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-python-developer-intern/location-remote-india/sort-by-date-desc]: found 21 cards
+2026-06-18 00:53:54,727 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-backend-developer-intern/location-bangalore/sort-by-date-desc]: found 2 cards
+2026-06-18 00:53:58,429 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-backend-developer-intern/location-jaipur/sort-by-date-desc]: found 2 cards
+2026-06-18 00:54:02,119 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-backend-developer-intern/location-remote-india/sort-by-date-desc]: found 2 cards
+2026-06-18 00:54:06,172 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-machine-learning-intern/location-bangalore/sort-by-date-desc]: found 40 cards
+2026-06-18 00:54:10,168 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-machine-learning-intern/location-jaipur/sort-by-date-desc]: found 40 cards
+2026-06-18 00:54:14,680 [INFO] scrapers.internshala — Internshala [https://internshala.com/internships/keywords-machine-learning-intern/location-remote-india/sort-by-date-desc]: found 40 cards
+2026-06-18 00:54:16,825 [INFO] scrapers.internshala — Internshala total raw jobs: 101 (sorted newest-first)
+2026-06-18 00:54:16,826 [INFO] JobAgent — Internshala: 101 jobs fetched
+2026-06-18 00:54:16,826 [INFO] JobAgent — Scraping Wellfound...
+2026-06-18 00:54:17,563 [WARNING] scrapers.wellfound — Wellfound returned 403 for https://wellfound.com/role/machine-learning?location_type=remote&location_type=in-office&sort=recency
+2026-06-18 00:54:20,414 [WARNING] scrapers.wellfound — Wellfound returned 403 for https://wellfound.com/role/artificial-intelligence?location_type=remote&location_type=in-office&sort=recency
+2026-06-18 00:54:23,263 [WARNING] scrapers.wellfound — Wellfound returned 403 for https://wellfound.com/role/python?location_type=remote&location_type=in-office&sort=recency
+2026-06-18 00:54:26,046 [WARNING] scrapers.wellfound — Wellfound returned 403 for https://wellfound.com/role/backend?location_type=remote&location_type=in-office&sort=recency
+2026-06-18 00:54:28,056 [INFO] scrapers.wellfound — Wellfound total raw jobs: 0
+2026-06-18 00:54:28,057 [INFO] JobAgent — Wellfound: 0 jobs fetched
+2026-06-18 00:54:28,194 [INFO] database — Bulk insert: 0 new, 101 duplicates
+2026-06-18 00:54:28,194 [INFO] JobAgent — Stored: 0 new, 101 duplicates skipped
+2026-06-18 00:54:30,554 [INFO] JobAgent — ============================================================
+2026-06-18 00:54:30,554 [INFO] JobAgent — WEEK 2 — Claude Scorer + Resume Tailor
+2026-06-18 00:54:30,554 [INFO] JobAgent — ============================================================
+2026-06-18 00:54:30,557 [INFO] JobAgent — Scoring 0 unscored jobs...
+2026-06-18 00:54:30,559 [INFO] JobAgent — 5 top jobs. Tailoring resumes + cover letters...
+2026-06-18 00:54:33,009 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 00:54:33,067 [INFO] tailor — Resume tailored for: Artificial Intelligence (AI) @ Plumo (2 exp, 3 projects, 0 leadership)
+2026-06-18 00:54:33,930 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 00:54:33,933 [INFO] tailor — Cover letter generated for: Artificial Intelligence (AI) @ Plumo
+2026-06-18 00:54:35,489 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 00:54:35,491 [INFO] tailor — Resume tailored for: Artificial Intelligence (AI) @ CogknowEdge Solutions (1 exp, 2 projects, 0 leadership)
+2026-06-18 00:54:35,593 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-18 00:54:35,595 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2026-06-18 00:54:39,459 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 00:54:39,462 [INFO] tailor — Cover letter generated for: Artificial Intelligence (AI) @ CogknowEdge Solutions
+2026-06-18 00:54:39,562 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-18 00:54:39,564 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 21.000000 seconds
+2026-06-18 00:55:02,099 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 00:55:02,101 [INFO] tailor — Resume tailored for: Artificial Intelligence (AI) @ Scholarthi (1 exp, 2 projects, 0 leadership)
+2026-06-18 00:55:07,472 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 00:55:07,474 [INFO] tailor — Cover letter generated for: Artificial Intelligence (AI) @ Scholarthi
+2026-06-18 00:55:07,620 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-18 00:55:07,621 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 13.000000 seconds
+2026-06-18 00:55:20,830 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-18 00:55:20,831 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-18 00:55:22,941 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-18 00:55:22,943 [ERROR] tailor — Resume tailor error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kp6kvbpxejvb0qwhyahyqpay` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 7646, Requested 5208. Please try again in 4.27s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2026-06-18 00:55:23,562 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 00:55:23,564 [INFO] tailor — Cover letter generated for: Machine Learning @ Neurasys
+2026-06-18 00:55:25,053 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 00:55:25,055 [INFO] tailor — Resume tailored for: Machine Learning @ Cloud Back (1 exp, 2 projects, 0 leadership)
+2026-06-18 00:55:25,110 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-06-18 00:55:25,111 [INFO] groq._base_client — Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2026-06-18 00:55:27,896 [INFO] httpx — HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-18 00:55:27,898 [INFO] tailor — Cover letter generated for: Machine Learning @ Cloud Back
+2026-06-18 00:55:28,232 [INFO] JobAgent — ============================================================
+2026-06-18 00:55:28,232 [INFO] JobAgent — WEEK 3 — PDF Generator + Email Digest
+2026-06-18 00:55:28,233 [INFO] JobAgent — ============================================================
+2026-06-18 00:55:28,262 [INFO] pdf_generator — Resume fits on 1 page at scale=1.00
+2026-06-18 00:55:28,286 [INFO] pdf_generator — PDF generated: data/pdfs/resume_Plumo_Artificial_Intelligence__AI_.pdf
+2026-06-18 00:55:28,307 [INFO] pdf_generator — Resume fits on 1 page at scale=1.00
+2026-06-18 00:55:28,330 [INFO] pdf_generator — PDF generated: data/pdfs/resume_CogknowEdge_Solutions_Artificial_Intelligence__AI_.pdf
+2026-06-18 00:55:28,349 [INFO] pdf_generator — Resume fits on 1 page at scale=1.00
+2026-06-18 00:55:28,367 [INFO] pdf_generator — PDF generated: data/pdfs/resume_Scholarthi_Artificial_Intelligence__AI_.pdf
+2026-06-18 00:55:28,395 [INFO] pdf_generator — Resume fits on 1 page at scale=1.00
+2026-06-18 00:55:28,423 [INFO] pdf_generator — PDF generated: data/pdfs/resume_Neurasys_Machine_Learning.pdf
+2026-06-18 00:55:28,446 [INFO] pdf_generator — Resume fits on 1 page at scale=1.00
+2026-06-18 00:55:28,465 [INFO] pdf_generator — PDF generated: data/pdfs/resume_Cloud_Back_Machine_Learning.pdf
+2026-06-18 00:55:33,393 [INFO] JobAgent — Marked 5 jobs as sent/applied — they won't repeat tomorrow.
+2026-06-18 00:55:33,400 [INFO] JobAgent — Pipeline complete! DB stats: {'total': 123, 'scored': 123, 'top_matches': 50, 'applied': 10}
