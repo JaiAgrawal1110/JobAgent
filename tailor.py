@@ -52,13 +52,36 @@ LEADERSHIP_SIGNAL_WORDS = [
     "coordinator", "coordinate", "mentor", "mentorship", "head", "founder",
     "stakeholder", "client management", "cross-functional", "team lead",
     "program manager", "project manager", "chapter", "president", "club",
+    "team", "collaborat", "communication", "client", "customer", "ownership",
+    "initiative", "drive", "deliver", "organi", "event", "mentee", "trainee",
+    "intern", "fresher", "entry-level", "entry level", "junior",
+]
+
+# Roles where leadership is almost never relevant even if a stray word matches
+# (e.g. "team" appears in nearly every JD) — used as a soft exclusion list.
+NARROW_TECHNICAL_SIGNALS = [
+    "research scientist", "phd", "kernel", "compiler", "embedded firmware",
+    "low-level", "algorithm engineer", "quant",
 ]
 
 
 def _is_leadership_relevant(job: dict) -> bool:
-    """Heuristic pre-check before even asking the LLM — cheap signal on title/desc."""
+    """
+    Heuristic pre-check before even asking the LLM.
+    Biased toward INCLUDING leadership by default for internship/entry-level roles —
+    leadership/ownership is a strong differentiator regardless of whether the JD happens
+    to use explicit team/collaboration language. Only suppress for clearly narrow,
+    deep solo-technical/research roles.
+    """
     text = f"{job.get('title', '')} {job.get('description', '')}".lower()
-    return any(word in text for word in LEADERSHIP_SIGNAL_WORDS)
+
+    if any(signal in text for signal in NARROW_TECHNICAL_SIGNALS):
+        return False
+
+    # Default to True — most internship/entry-level roles benefit from showing
+    # leadership/ownership experience. Signal words are now used only to add
+    # extra confidence in the hint passed to the LLM, not as a hard gate.
+    return True
 
 
 # ---------------------------------------------------------------------------
@@ -82,12 +105,12 @@ STRICT RULES — violating any of these is a failure:
    - Projects: include ONLY the 2-3 most relevant projects to this specific job. For EACH
      project, include EXACTLY 2 bullets. Drop everything else.
    - Education: keep as-is, 1 line.
-   - Leadership: ONLY include this section if the job description signals a leadership,
-     management, operations, client-facing, or cross-functional-coordination component
-     (e.g. "team lead", "manage stakeholders", "operations", "client management", "mentor").
-     If included, select ONLY the 1-2 most relevant leadership items, each as ONE concise line.
-     If the job is purely a technical IC role with no such signal, OMIT leadership entirely —
-     do not force it in.
+   - Leadership: DEFAULT TO INCLUDING this section for internship/entry-level roles, since
+     leadership/ownership experience is a strong differentiator even for technical positions.
+     Only OMIT it if the job is a clearly narrow, deep solo-technical/research role where there
+     is truly no room (e.g. PhD research, low-level systems, algorithm-only roles) AND including
+     it would push the resume past one page. When included, select ONLY the 1-2 most relevant
+     leadership items, each as ONE concise line.
 2. Every bullet you keep should be REWRITTEN to mirror the job description's language and
    keywords where truthful — but never fabricate skills, metrics, or experience not in the master CV.
 3. Prioritise: relevance to the JD > recency > impact/metrics.
@@ -117,10 +140,11 @@ def tailor_resume(base_resume: dict, job: dict) -> dict:
 
     leadership_hint = (
         "NOTE: This job's title/description shows signals of leadership, operations, "
-        "or client-facing responsibility — strongly consider including the Leadership section."
+        "teamwork, client-facing, or ownership responsibility — include the Leadership section."
         if _is_leadership_relevant(job) else
-        "NOTE: This job appears to be a pure technical/IC role with no leadership signal — "
-        "leadership section should likely be omitted unless truly exceptional fit exists."
+        "NOTE: This job appears to be a narrow, deep solo-technical/research role — "
+        "leadership section may be omitted only if space is tight, but still consider it "
+        "if it strengthens the application without overflowing the page."
     )
 
     prompt = (
